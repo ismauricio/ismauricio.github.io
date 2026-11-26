@@ -1,1 +1,281 @@
-[]
+[
+  {
+    "type": "book",
+    "title": "Dune Messiah",
+    "year": 1969,
+    "credit": "Frank Herbert",
+    "image": "https://covers.openlibrary.org/b/isbn/9780593201732-L.jpg?default=false",
+    "alt": "Dune Messiah book cover"
+  },
+  {
+    "type": "book",
+    "title": "Children of Dune",
+    "year": 1976,
+    "credit": "Frank Herbert",
+    "image": "https://covers.openlibrary.org/b/isbn/9780441104024-L.jpg?default=false",
+    "alt": "Children of Dune book cover"
+  },
+  {
+    "type": "book",
+    "title": "When Breath Becomes Air",
+    "year": 2016,
+    "credit": "Paul Kalanithi",
+    "image": "https://covers.openlibrary.org/b/isbn/9780812988406-L.jpg?default=false",
+    "alt": "When Breath Becomes Air book cover"
+  },
+  {
+    "type": "movie",
+    "title": "How to Make Millions Before Grandma Dies",
+    "year": 2024,
+    "wiki": "How to Make Millions Before Grandma Dies",
+    "alt": "How to Make Millions Before Grandma Dies poster"
+  },
+  {
+    "type": "movie",
+    "title": "Princess Mononoke",
+    "year": 1997,
+    "wiki": "Princess Mononoke",
+    "alt": "Princess Mononoke poster"
+  },
+  {
+    "type": "movie",
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "year": 2004,
+    "wiki": "Eternal Sunshine of the Spotless Mind",
+    "alt": "Eternal Sunshine of the Spotless Mind poster"
+  },
+  {
+    "type": "movie",
+    "title": "The Invite",
+    "year": 2026,
+    "wiki": "The Invite (2026 film)",
+    "alt": "The Invite poster"
+  },
+  {
+    "type": "movie",
+    "title": "Parasite",
+    "year": 2019,
+    "wiki": "Parasite (2019 film)",
+    "alt": "Parasite poster"
+  },
+  {
+    "type": "movie",
+    "title": "Arrival",
+    "year": 2016,
+    "wiki": "Arrival (film)",
+    "alt": "Arrival poster"
+  },
+  {
+    "type": "movie",
+    "title": "Fantastic Mr. Fox",
+    "year": 2009,
+    "wiki": "Fantastic Mr. Fox (film)",
+    "alt": "Fantastic Mr. Fox poster"
+  },
+  {
+    "type": "movie",
+    "title": "The Royal Tenenbaums",
+    "year": 2001,
+    "wiki": "The Royal Tenenbaums",
+    "alt": "The Royal Tenenbaums poster"
+  },
+  {
+    "type": "movie",
+    "title": "Spirited Away",
+    "year": 2001,
+    "wiki": "Spirited Away",
+    "alt": "Spirited Away poster"
+  },
+  {
+    "type": "movie",
+    "title": "Howl’s Moving Castle",
+    "year": 2004,
+    "wiki": "Howl's Moving Castle (film)",
+    "alt": "Howl’s Moving Castle poster"
+  },
+  {
+    "type": "show",
+    "title": "Cowboy Bebop",
+    "year": 1998,
+    "wiki": "Cowboy Bebop",
+    "alt": "Cowboy Bebop poster"
+  },
+  {
+    "type": "show",
+    "title": "Fleabag",
+    "year": 2016,
+    "wiki": "Fleabag",
+    "alt": "Fleabag poster"
+  },
+  {
+    "type": "show",
+    "title": "One Piece",
+    "year": 1999,
+    "wiki": "One Piece (1999 TV series)",
+    "alt": "One Piece poster"
+  },
+  {
+    "type": "show",
+    "title": "When Life Gives You Tangerines",
+    "year": 2025,
+    "wiki": "When Life Gives You Tangerines",
+    "alt": "When Life Gives You Tangerines poster"
+  },
+  {
+    "type": "show",
+    "title": "Our Beloved Summer",
+    "year": 2021,
+    "wiki": "Our Beloved Summer",
+    "alt": "Our Beloved Summer poster"
+  },
+  {
+    "type": "show",
+    "title": "Business Proposal",
+    "year": 2022,
+    "wiki": "Business Proposal",
+    "alt": "Business Proposal poster"
+  },
+  {
+    "type": "show",
+    "title": "Twenty-Five Twenty-One",
+    "year": 2022,
+    "wiki": "Twenty-Five Twenty-One",
+    "alt": "Twenty-Five Twenty-One poster"
+  },
+  {
+    "type": "album",
+    "title": "Son of Spergy",
+    "year": 2025,
+    "credit": "Daniel Caesar",
+    "wiki": "Son of Spergy",
+    "alt": "Son of Spergy album cover"
+  },
+  {
+    "type": "album",
+    "title": "Lux",
+    "year": 2025,
+    "credit": "Rosalía",
+    "wiki": "Lux (Rosalía album)",
+    "alt": "Lux album cover"
+  },
+  {
+    "type": "album",
+    "title": "Ctrl",
+    "year": 2017,
+    "credit": "SZA",
+    "wiki": "Ctrl (SZA album)",
+    "alt": "Ctrl album cover"
+  },
+  {
+    "type": "album",
+    "title": "Every letter I sent you.",
+    "year": 2019,
+    "credit": "Yerin Baek",
+    "wiki": "Every letter I sent you.",
+    "alt": "Every letter I sent you. album cover"
+  },
+  {
+    "type": "album",
+    "title": "Harry’s House",
+    "year": 2022,
+    "credit": "Harry Styles",
+    "wiki": "Harry's House",
+    "alt": "Harry’s House album cover"
+  },
+  {
+    "type": "album",
+    "title": "30",
+    "year": 2021,
+    "credit": "Adele",
+    "wiki": "30 (album)",
+    "alt": "30 album cover"
+  },
+  {
+    "type": "album",
+    "title": "Hit Me Hard and Soft",
+    "year": 2024,
+    "credit": "Billie Eilish",
+    "wiki": "Hit Me Hard and Soft",
+    "alt": "Hit Me Hard and Soft album cover"
+  },
+  {
+    "type": "album",
+    "title": "Thank U, Next",
+    "year": 2019,
+    "credit": "Ariana Grande",
+    "wiki": "Thank U, Next (album)",
+    "alt": "Thank U, Next album cover"
+  },
+  {
+    "type": "album",
+    "title": "Igor",
+    "year": 2019,
+    "credit": "Tyler, the Creator",
+    "wiki": "Igor (album)",
+    "alt": "Igor album cover"
+  },
+  {
+    "type": "album",
+    "title": "The ReVe Festival 2022 – Feel My Rhythm",
+    "year": 2022,
+    "credit": "Red Velvet",
+    "wiki": "The ReVe Festival 2022 – Feel My Rhythm",
+    "alt": "The ReVe Festival 2022 – Feel My Rhythm album cover"
+  },
+  {
+    "type": "album",
+    "title": "Renaissance",
+    "year": 2022,
+    "credit": "Beyoncé",
+    "wiki": "Renaissance (Beyoncé album)",
+    "alt": "Renaissance album cover"
+  },
+  {
+    "type": "album",
+    "title": "The Miseducation of Lauryn Hill",
+    "year": 1998,
+    "credit": "Lauryn Hill",
+    "wiki": "The Miseducation of Lauryn Hill",
+    "alt": "The Miseducation of Lauryn Hill album cover"
+  },
+  {
+    "type": "album",
+    "title": "True",
+    "year": 2012,
+    "credit": "Solange",
+    "wiki": "True (EP)",
+    "alt": "True album cover"
+  },
+  {
+    "type": "album",
+    "title": "Lioness: Hidden Treasures",
+    "year": 2011,
+    "credit": "Amy Winehouse",
+    "wiki": "Lioness: Hidden Treasures",
+    "alt": "Lioness: Hidden Treasures album cover"
+  },
+  {
+    "type": "album",
+    "title": "Willow",
+    "year": 2019,
+    "credit": "Willow",
+    "wiki": "Willow (album)",
+    "alt": "Willow album cover"
+  },
+  {
+    "type": "album",
+    "title": "Brasilian Skies",
+    "year": 1978,
+    "credit": "Masayoshi Takanaka",
+    "wiki": "Brasilian Skies",
+    "alt": "Brasilian Skies album cover"
+  },
+  {
+    "type": "album",
+    "title": "Atlanta Millionaires Club",
+    "year": 2019,
+    "credit": "Faye Webster",
+    "wiki": "Atlanta Millionaires Club",
+    "alt": "Atlanta Millionaires Club album cover"
+  }
+]

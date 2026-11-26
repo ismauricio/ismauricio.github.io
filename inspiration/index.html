@@ -11,7 +11,7 @@ section: inspiration
 {% assign artwork_path = '/assets/images/inspiration/' | append: item.slug | append: '.jpg' %}
 {% assign local_art = site.static_files | where: 'path', artwork_path | first %}
 <div class="inspiration-art {% if item.type == 'album' %}square{% endif %}">
-<img loading="lazy" {% if local_art %}src="{{ artwork_path | relative_url }}"{% elsif item.source %}src="{{ item.source | escape }}"{% endif %} {% if item.image %}data-fallback="{{ item.image | escape }}"{% endif %} {% if item.wiki %}data-wiki="{{ item.wiki | escape }}"{% endif %} alt="{{ item.alt | escape }}" hidden>
+<img decoding="async" {% if local_art %}src="{{ artwork_path | relative_url }}"{% elsif item.source %}src="{{ item.source | escape }}"{% endif %} {% if item.image %}data-fallback="{{ item.image | escape }}"{% endif %} {% if item.wiki %}data-wiki="{{ item.wiki | escape }}"{% endif %} alt="{{ item.alt | escape }}" hidden>
 <span class="art-placeholder">cover unavailable</span>
 </div>
 <h3>{{ item.title | escape }}</h3><small>{% if item.credit %}{{ item.credit | escape }} · {% endif %}{{ item.year }}</small>
@@ -19,7 +19,7 @@ section: inspiration
 {% endfor %}
 </div>
 <style>
-.inspiration-gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(175px,1fr));gap:18px;align-items:start;columns:auto}.inspiration-card{margin:0;padding:10px 10px 14px;min-width:0}.inspiration-card h3{font-size:18px;margin:10px 0 4px;overflow-wrap:anywhere}.inspiration-art{aspect-ratio:2/3;display:flex;align-items:center;justify-content:center;background:#e9dfc6;position:relative}.inspiration-art.square{aspect-ratio:1}.inspiration-art img{width:100%;height:100%;object-fit:contain}.inspiration-art img[hidden],.art-placeholder[hidden]{display:none}.art-placeholder{font-size:13px;font-style:italic;text-align:center;color:#74664e;padding:8px}@media(max-width:500px){.inspiration-gallery{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
+.inspiration-gallery{display:block;columns:4 175px;column-gap:18px}.inspiration-card{display:inline-block;width:100%;break-inside:avoid;margin:0 0 18px;padding:10px 10px 14px;min-width:0}.inspiration-card h3{font-size:18px;margin:10px 0 4px;overflow-wrap:anywhere}.inspiration-art{aspect-ratio:2/3;display:flex;align-items:center;justify-content:center;background:#e9dfc6;position:relative}.inspiration-art.square{aspect-ratio:1}.inspiration-art img{width:100%;height:100%;object-fit:contain}.inspiration-art img[hidden],.art-placeholder[hidden]{display:none}.art-placeholder{font-size:13px;font-style:italic;text-align:center;color:#74664e;padding:8px}@media(max-width:500px){.inspiration-gallery{columns:2;column-gap:12px}.inspiration-card{margin-bottom:12px}}
 </style>
 <script>
 document.querySelectorAll('.inspiration-art img').forEach(img=>{

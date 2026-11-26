@@ -1,14 +1,5 @@
 [
   {
-    "type": "album",
-    "title": "Ctrl",
-    "year": 2017,
-    "credit": "SZA",
-    "wiki": "Ctrl (SZA album)",
-    "alt": "Ctrl album cover",
-    "slug": "ctrl"
-  },
-  {
     "type": "book",
     "title": "When Breath Becomes Air",
     "year": 2016,
@@ -19,36 +10,21 @@
     "slug": "when-breath-becomes-air"
   },
   {
+    "type": "album",
+    "title": "Ctrl",
+    "year": 2017,
+    "credit": "SZA",
+    "wiki": "Ctrl (SZA album)",
+    "alt": "Ctrl album cover",
+    "slug": "ctrl"
+  },
+  {
     "type": "movie",
     "title": "Princess Mononoke",
     "year": 1997,
     "wiki": "Princess Mononoke",
     "alt": "Princess Mononoke poster",
     "slug": "princess-mononoke"
-  },
-  {
-    "type": "movie",
-    "title": "Howl’s Moving Castle",
-    "year": 2004,
-    "wiki": "Howl's Moving Castle (film)",
-    "alt": "Howl’s Moving Castle poster",
-    "slug": "howl-s-moving-castle"
-  },
-  {
-    "type": "show",
-    "title": "Cowboy Bebop",
-    "year": 1998,
-    "wiki": "Cowboy Bebop",
-    "alt": "Cowboy Bebop poster",
-    "slug": "cowboy-bebop"
-  },
-  {
-    "type": "movie",
-    "title": "Eternal Sunshine of the Spotless Mind",
-    "year": 2004,
-    "wiki": "Eternal Sunshine of the Spotless Mind",
-    "alt": "Eternal Sunshine of the Spotless Mind poster",
-    "slug": "eternal-sunshine-of-the-spotless-mind"
   },
   {
     "type": "album",
@@ -60,12 +36,12 @@
     "slug": "atlanta-millionaires-club"
   },
   {
-    "type": "show",
-    "title": "One Piece",
-    "year": 1999,
-    "wiki": "One Piece (1999 TV series)",
-    "alt": "One Piece poster",
-    "slug": "one-piece"
+    "type": "movie",
+    "title": "Howl’s Moving Castle",
+    "year": 2004,
+    "wiki": "Howl's Moving Castle (film)",
+    "alt": "Howl’s Moving Castle poster",
+    "slug": "howl-s-moving-castle"
   },
   {
     "type": "album",
@@ -75,6 +51,14 @@
     "wiki": "Son of Spergy",
     "alt": "Son of Spergy album cover",
     "slug": "son-of-spergy"
+  },
+  {
+    "type": "show",
+    "title": "Cowboy Bebop",
+    "year": 1998,
+    "wiki": "Cowboy Bebop",
+    "alt": "Cowboy Bebop poster",
+    "slug": "cowboy-bebop"
   },
   {
     "type": "album",
@@ -87,11 +71,11 @@
   },
   {
     "type": "movie",
-    "title": "Spirited Away",
-    "year": 2001,
-    "wiki": "Spirited Away",
-    "alt": "Spirited Away poster",
-    "slug": "spirited-away"
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "year": 2004,
+    "wiki": "Eternal Sunshine of the Spotless Mind",
+    "alt": "Eternal Sunshine of the Spotless Mind poster",
+    "slug": "eternal-sunshine-of-the-spotless-mind"
   },
   {
     "type": "album",
@@ -104,11 +88,11 @@
   },
   {
     "type": "show",
-    "title": "Fleabag",
-    "year": 2016,
-    "wiki": "Fleabag",
-    "alt": "Fleabag poster",
-    "slug": "fleabag"
+    "title": "One Piece",
+    "year": 1999,
+    "wiki": "One Piece (1999 TV series)",
+    "alt": "One Piece poster",
+    "slug": "one-piece"
   },
   {
     "type": "album",
@@ -121,11 +105,11 @@
   },
   {
     "type": "movie",
-    "title": "The Royal Tenenbaums",
+    "title": "Spirited Away",
     "year": 2001,
-    "wiki": "The Royal Tenenbaums",
-    "alt": "The Royal Tenenbaums poster",
-    "slug": "the-royal-tenenbaums"
+    "wiki": "Spirited Away",
+    "alt": "Spirited Away poster",
+    "slug": "spirited-away"
   },
   {
     "type": "album",
@@ -137,12 +121,12 @@
     "slug": "the-reve-festival-2022-feel-my-rhythm"
   },
   {
-    "type": "movie",
-    "title": "The Invite",
-    "year": 2026,
-    "wiki": "The Invite (2026 film)",
-    "alt": "The Invite poster",
-    "slug": "the-invite"
+    "type": "show",
+    "title": "Fleabag",
+    "year": 2016,
+    "wiki": "Fleabag",
+    "alt": "Fleabag poster",
+    "slug": "fleabag"
   },
   {
     "type": "album",
@@ -154,12 +138,12 @@
     "slug": "igor"
   },
   {
-    "type": "show",
-    "title": "When Life Gives You Tangerines",
-    "year": 2025,
-    "wiki": "When Life Gives You Tangerines",
-    "alt": "When Life Gives You Tangerines poster",
-    "slug": "when-life-gives-you-tangerines"
+    "type": "movie",
+    "title": "The Royal Tenenbaums",
+    "year": 2001,
+    "wiki": "The Royal Tenenbaums",
+    "alt": "The Royal Tenenbaums poster",
+    "slug": "the-royal-tenenbaums"
   },
   {
     "type": "album",
@@ -171,12 +155,12 @@
     "slug": "renaissance"
   },
   {
-    "type": "show",
-    "title": "Business Proposal",
-    "year": 2022,
-    "wiki": "Business Proposal",
-    "alt": "Business Proposal poster",
-    "slug": "business-proposal"
+    "type": "movie",
+    "title": "The Invite",
+    "year": 2026,
+    "wiki": "The Invite (2026 film)",
+    "alt": "The Invite poster",
+    "slug": "the-invite"
   },
   {
     "type": "album",
@@ -187,6 +171,40 @@
     "alt": "Oh yeah? album cover",
     "source": "https://coverartarchive.org/release/eb30b1a0-3a0a-47cb-b2b1-0856f0cb6aa8/front-500",
     "slug": "oh-yeah"
+  },
+  {
+    "type": "show",
+    "title": "When Life Gives You Tangerines",
+    "year": 2025,
+    "wiki": "When Life Gives You Tangerines",
+    "alt": "When Life Gives You Tangerines poster",
+    "slug": "when-life-gives-you-tangerines"
+  },
+  {
+    "type": "album",
+    "title": "The Miseducation of Lauryn Hill",
+    "year": 1998,
+    "credit": "Lauryn Hill",
+    "wiki": "The Miseducation of Lauryn Hill",
+    "alt": "The Miseducation of Lauryn Hill album cover",
+    "slug": "the-miseducation-of-lauryn-hill"
+  },
+  {
+    "type": "show",
+    "title": "Business Proposal",
+    "year": 2022,
+    "wiki": "Business Proposal",
+    "alt": "Business Proposal poster",
+    "slug": "business-proposal"
+  },
+  {
+    "type": "album",
+    "title": "Lux",
+    "year": 2025,
+    "credit": "Rosalía",
+    "wiki": "Lux (Rosalía album)",
+    "alt": "Lux album cover",
+    "slug": "lux"
   },
   {
     "type": "book",
@@ -200,12 +218,12 @@
   },
   {
     "type": "album",
-    "title": "The Miseducation of Lauryn Hill",
-    "year": 1998,
-    "credit": "Lauryn Hill",
-    "wiki": "The Miseducation of Lauryn Hill",
-    "alt": "The Miseducation of Lauryn Hill album cover",
-    "slug": "the-miseducation-of-lauryn-hill"
+    "title": "True",
+    "year": 2012,
+    "credit": "Solange",
+    "wiki": "True (EP)",
+    "alt": "True album cover",
+    "slug": "true"
   },
   {
     "type": "movie",
@@ -216,6 +234,15 @@
     "slug": "fantastic-mr-fox"
   },
   {
+    "type": "album",
+    "title": "Hit Me Hard and Soft",
+    "year": 2024,
+    "credit": "Billie Eilish",
+    "wiki": "Hit Me Hard and Soft",
+    "alt": "Hit Me Hard and Soft album cover",
+    "slug": "hit-me-hard-and-soft"
+  },
+  {
     "type": "book",
     "title": "Children of Dune",
     "year": 1976,
@@ -224,33 +251,6 @@
     "alt": "Children of Dune book cover",
     "source": "https://images.penguinrandomhouse.com/cover/9780593201749",
     "slug": "children-of-dune"
-  },
-  {
-    "type": "album",
-    "title": "Lux",
-    "year": 2025,
-    "credit": "Rosalía",
-    "wiki": "Lux (Rosalía album)",
-    "alt": "Lux album cover",
-    "slug": "lux"
-  },
-  {
-    "type": "album",
-    "title": "True",
-    "year": 2012,
-    "credit": "Solange",
-    "wiki": "True (EP)",
-    "alt": "True album cover",
-    "slug": "true"
-  },
-  {
-    "type": "album",
-    "title": "Hit Me Hard and Soft",
-    "year": 2024,
-    "credit": "Billie Eilish",
-    "wiki": "Hit Me Hard and Soft",
-    "alt": "Hit Me Hard and Soft album cover",
-    "slug": "hit-me-hard-and-soft"
   },
   {
     "type": "album",
@@ -270,14 +270,6 @@
     "slug": "twenty-five-twenty-one"
   },
   {
-    "type": "movie",
-    "title": "Parasite",
-    "year": 2019,
-    "wiki": "Parasite (2019 film)",
-    "alt": "Parasite poster",
-    "slug": "parasite"
-  },
-  {
     "type": "album",
     "title": "Willow",
     "year": 2019,
@@ -285,6 +277,14 @@
     "wiki": "Willow (album)",
     "alt": "Willow album cover",
     "slug": "willow"
+  },
+  {
+    "type": "movie",
+    "title": "Parasite",
+    "year": 2019,
+    "wiki": "Parasite (2019 film)",
+    "alt": "Parasite poster",
+    "slug": "parasite"
   },
   {
     "type": "album",

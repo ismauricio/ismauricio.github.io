@@ -3,4 +3,33 @@ layout: default
 title: inspiration
 section: inspiration
 ---
-<div class="page-heading"><h1>inspiration</h1><img src="{{ '/assets/images/ladybug.svg' | relative_url }}" alt="" width="37"></div><p class="lede">a collection of things i enjoy.</p><div class="masonry">{% for item in site.data.inspiration %}<article class="scrap">{% if item.image %}<img loading="lazy" src="{{ item.image | relative_url }}" alt="{{ item.alt | escape }}">{% endif %}{% if item.title %}<h2>{% if item.url %}<a href="{{ item.url | escape }}">{{ item.title | escape }} ↗</a>{% else %}{{ item.title | escape }}{% endif %}</h2>{% endif %}{% if item.text %}<p>{{ item.text | escape | newline_to_br }}</p>{% endif %}{% if item.credit %}<small>{{ item.credit | escape }}</small>{% endif %}</article>{% else %}<div class="scrap empty">A place for things worth keeping.</div>{% endfor %}</div>
+<div class="page-heading"><h1>inspiration</h1><img src="{{ '/assets/images/ladybug.svg' | relative_url }}" alt="" width="37"></div>
+<p class="lede">a collection of things i enjoy.</p>
+{% assign categories = 'book|movie|show|album' | split: '|' %}
+{% assign headings = 'books|movies|shows|albums' | split: '|' %}
+{% for category in categories %}
+<section class="inspiration-section"><h2 class="collection-heading">{{ headings[forloop.index0] }}</h2><div class="inspiration-grid">
+{% assign items = site.data.inspiration | where: 'type', category %}
+{% for item in items %}
+<article class="scrap inspiration-card">
+<div class="inspiration-art {% if category == 'album' %}square{% endif %}">{% if item.image %}<img loading="lazy" src="{{ item.image | escape }}" alt="{{ item.alt | escape }}">{% else %}<img loading="lazy" data-wiki="{{ item.wiki | escape }}" alt="{{ item.alt | escape }}" hidden><span class="art-placeholder">cover unavailable</span>{% endif %}</div>
+<h3>{{ item.title | escape }}</h3>
+<small>{% if item.credit %}{{ item.credit | escape }} · {% endif %}{{ item.year }}</small>
+</article>
+{% endfor %}
+</div></section>
+{% endfor %}
+<style>
+.inspiration-section{margin:28px 0 38px}.collection-heading{border-bottom:1px dashed var(--line);padding-bottom:8px}.inspiration-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(145px,1fr));gap:16px;align-items:start}.inspiration-card{margin:0;padding:10px 10px 14px;min-width:0}.inspiration-card h3{font-size:18px;margin:10px 0 4px;overflow-wrap:anywhere}.inspiration-art{aspect-ratio:2/3;display:flex;align-items:center;justify-content:center;background:#e9dfc6;position:relative}.inspiration-art.square{aspect-ratio:1}.inspiration-art img{width:100%;height:100%;object-fit:contain}.inspiration-art img[hidden]{display:none}.art-placeholder{font-size:13px;font-style:italic;text-align:center;color:#74664e;padding:8px}.art-placeholder[hidden]{display:none}@media(max-width:500px){.inspiration-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}}
+</style>
+<script>
+(function(){
+const images=[...document.querySelectorAll('img[data-wiki]')];
+const titles=images.map(img=>img.dataset.wiki);
+const params=new URLSearchParams({action:'query',format:'json',origin:'*',redirects:'1',prop:'pageimages',piprop:'thumbnail',pithumbsize:'500',pilicense:'any',titles:titles.join('|')});
+fetch('https://en.wikipedia.org/w/api.php?'+params).then(r=>{if(!r.ok)throw new Error('Artwork request failed');return r.json()}).then(data=>{
+const q=data.query||{};const aliases=new Map([...(q.normalized||[]),...(q.redirects||[])].map(x=>[x.from,x.to]));const pages=new Map(Object.values(q.pages||{}).map(p=>[p.title,p]));
+images.forEach(img=>{let title=img.dataset.wiki;for(let i=0;i<5&&aliases.has(title);i++)title=aliases.get(title);const url=pages.get(title)?.thumbnail?.source;if(!url)return;img.addEventListener('load',()=>{img.hidden=false;img.nextElementSibling.hidden=true},{once:true});img.src=url;});
+}).catch(()=>{});
+})();
+</script>

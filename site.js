@@ -1,0 +1,2 @@
+const search = document.querySelector('#search');
+if (search) { const entries = [...document.querySelectorAll('.searchable')]; const status = document.querySelector('#search-status'); search.addEventListener('input', () => { const q = search.value.trim().toLowerCase(); let n = 0; for (const entry of entries) { const matches = entry.dataset.search.toLowerCase().includes(q); entry.hidden = !matches; if (matches) n++; } status.textContent = q ? `${n} ${n === 1 ? 'result' : 'results'}` : ''; }); }

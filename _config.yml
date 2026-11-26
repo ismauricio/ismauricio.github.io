@@ -1,0 +1,17 @@
+title: pudim
+author: Isaac
+url: https://ismauricio.github.io
+baseurl: ""
+markdown: kramdown
+permalink: /writing/:year/:month/:day/:title/
+future: false
+show_drafts: false
+exclude: [README.md, templates, Gemfile, Gemfile.lock]
+cloudflare_token: ""
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      section: writing

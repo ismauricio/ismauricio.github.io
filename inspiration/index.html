@@ -1,0 +1,6 @@
+---
+layout: default
+title: inspiration
+section: inspiration
+---
+<div class="page-heading"><h1>inspiration</h1><img src="{{ '/assets/images/ladybug.svg' | relative_url }}" alt="" width="37"></div><p class="lede">a collection of things i enjoy.</p><div class="masonry">{% for item in site.data.inspiration %}<article class="scrap">{% if item.image %}<img loading="lazy" src="{{ item.image | relative_url }}" alt="{{ item.alt | escape }}">{% endif %}{% if item.title %}<h2>{% if item.url %}<a href="{{ item.url | escape }}">{{ item.title | escape }} ↗</a>{% else %}{{ item.title | escape }}{% endif %}</h2>{% endif %}{% if item.text %}<p>{{ item.text | escape | newline_to_br }}</p>{% endif %}{% if item.credit %}<small>{{ item.credit | escape }}</small>{% endif %}</article>{% else %}<div class="scrap empty">A place for things worth keeping.</div>{% endfor %}</div>

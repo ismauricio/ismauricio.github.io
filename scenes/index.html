@@ -1,0 +1,6 @@
+---
+layout: default
+title: scenes
+section: scenes
+---
+<div class="page-heading"><h1>scenes</h1></div><p class="lede">places, moments, and photographs.</p><div class="masonry">{% for item in site.data.scenes %}<figure class="scrap"><a href="{{ item.image | relative_url }}"><img loading="lazy" src="{{ item.image | relative_url }}" alt="{{ item.alt | escape }}"></a><figcaption>{{ item.caption | escape }}{% if item.date %}<small>{{ item.date | escape }}</small>{% endif %}</figcaption></figure>{% else %}<div class="scrap empty">A little room for future photographs.</div>{% endfor %}</div>

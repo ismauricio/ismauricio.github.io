@@ -7,7 +7,7 @@ permalink: /writing/:year/:month/:day/:title/
 future: false
 show_drafts: false
 exclude: [README.md, templates, Gemfile, Gemfile.lock]
-cloudflare_token: ""
+cloudflare_token: "df7f4706fd764fb2841c7b3871cf1921"
 defaults:
   - scope:
       path: ""
